@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: 650px;
+  background-attachment: fixed;
+  background-position: right;
+}
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+#search_button {
+  color: rgb(255, 255, 255);
+  size: 35px;
+  font-style: italic;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 8px;
+  border: 2px solid rgb(0, 0, 0);
+  display: inline-block;
+  transition: all 0.4 ease 0s;
+  background-color: #06b91e;
+  cursor: pointer;
+}
+
+#search_button:hover {
+  background-color: rgb(13, 226, 190);
+  color: black;
+  transition: all 0.4 ease 0s;
+}
+
+#search_input {
+  width: 250px;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 8px 0;
+  padding: 8px 0;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  outline: none;
+  background: none;
+}
+
+input {
+  border: none;
+}
+
+#meaning {
+  width: 500px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 30px;
+  border: 1.5px solid white;
+  border-radius: 12px;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 850px) {
+  #meaning {
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 760px) {
+  #meaning {
+    width: 400px;
+    height: 300px;
+  }
+}
